@@ -16,13 +16,12 @@
     * _Рейтинговые
       рекомендации_ ([`popularity`](Recommendations/src/main/java/com/recommender/bot/algorithms/popularity))\
       `PopularityBased` - реализация рейтинга фильмов по формуле `(R * V + C * M) / (V + M)`, где \
-      V - число голосов, отданных за фильм;\
-      M - минимальное количество голосов для включения в рейтинг;\
-      R - средняя оценка фильма (по десятибалльной шкале);\
-      C - средняя оценка среди всех фильмов.<br/><br/>
+      `V` - число голосов, отданных за фильм;\
+      `M` - минимальное количество голосов для включения в рейтинг;\
+      `R` - средняя оценка фильма (по десятибалльной шкале);\
+      `C` - средняя оценка среди всех фильмов.<br/><br/>
 
-* **Конфигурация и выполнение рекомендаций (
-  **[`recommendations`](Recommendations/src/main/java/com/recommender/bot/service/recommendations)**)**
+* **Конфигурация и выполнение рекомендаций (**[`recommendations`](Recommendations/src/main/java/com/recommender/bot/service/recommendations)**)**
     * `AlgorithmsConfig` - класс конфигурации рекомендательной системы.<br/><br/>
     * `Recommendations` - класс, определяющий набор алгоритмов рекомендации.<br/><br/>
 
@@ -32,4 +31,5 @@
     * `RecommendationsController` - контроллер, принимающий запросы на отправку рекомендации.<br/><br/>
 
 ## **Модуль Telegram бота (**[`TelegramBot`](TelegramClient)**)**
-![Команды](images/commands.png "Команды") ![Команды](images/commands.png "Команды")
+
+![Команды](images/1.PNG "Команды")
